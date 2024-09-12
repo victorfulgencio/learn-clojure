@@ -17,7 +17,7 @@ pom.xml.asc
 .nrepl-*
 .DS_Store
 
-.calva/*
+.vscode*
 .calva/output-window
 .calva/repl.calva-repl
 .lsp/.cache
