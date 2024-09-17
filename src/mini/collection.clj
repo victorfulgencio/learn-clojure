@@ -23,7 +23,7 @@
               first
               (- 2)))
 
-(defn starts-with-a-or-b [text] 
+(defn starts-with-a-or-b [text]
   (let [first-char (first (str/upper-case text))]
     (or (= \A first-char) (= \B first-char))))
 
@@ -37,3 +37,9 @@
               (filter starts-with-a-or-b)
               (map #(str "Hey," % "!"))
               (run! println)))
+
+
+(comment "Reduce"
+         (->> [{:cash 10}, {:cash 100}, {:cash 35}]
+              (map (fn [m] (:cash m)))
+              (reduce +)))

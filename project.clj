@@ -5,4 +5,5 @@
                  [ring/ring-jetty-adapter "1.8.2"]
                  [ring/ring-devel "1.8.0"]
                  [org.clojure/data.json "2.5.0"]
-                 [prismatic/schema "1.4.1"]])
+                 [prismatic/schema "1.4.1"]
+                 [nubank/matcher-combinators "3.8.8"]])
